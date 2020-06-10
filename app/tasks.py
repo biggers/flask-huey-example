@@ -10,6 +10,7 @@ from app.extensions.mail import mail
 
 huey = create_huey(config)
 
+
 @huey.task()
 def send_async_email(msg):
     """Background task to send an email with Flask-Mail."""
