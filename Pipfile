@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+blinker = "*"
+click = "*"
+flask-redis = "*"
+huey = "*"
+itsdangerous = "*"
+redis = "*"
+Flask = "*"
+Flask-Mail = "*"
+Jinja2 = "*"
+MarkupSafe = "*"
+Werkzeug = "*"
+
+[requires]
+python_version = "3.7"
